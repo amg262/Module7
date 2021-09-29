@@ -2,14 +2,14 @@
 {
     public class Rectangle
     {
-        public double Length { get; set; }
-        public double Width { get; set; }
-
         public Rectangle(double length = default, double width = default)
         {
             Length = length;
             Width = width;
         }
+
+        public double Length { get; set; }
+        public double Width { get; set; }
 
         public double GetArea()
         {

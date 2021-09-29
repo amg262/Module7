@@ -2,11 +2,11 @@
 
 namespace Module7
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Customer myCustomer = new Customer("Andrew", "Gunn", 1);
+            var myCustomer = new Customer("Andrew", "Gunn", 1);
 
             // Pet pet = new Pet();
             // Dog dog = new Dog();
@@ -21,15 +21,13 @@ namespace Module7
             // Console.WriteLine(student.ToString());
 
 
-            Television sony = new Television(true, 12, "Sony");
-            Television lg = new Television(false, 2, "LG");
-            Television vizio = new Television(true, 32, "Vizio");
+            var sony = new Television(true, 12, "Sony");
+            var lg = new Television(false, 2, "LG");
+            var vizio = new Television(true, 32, "Vizio");
 
             Console.WriteLine(sony.ToString());
             Console.WriteLine(lg.ToString());
             Console.WriteLine(vizio.ToString());
-
-
         }
     }
 }

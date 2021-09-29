@@ -2,12 +2,13 @@
 {
     public class Student : Person
     {
-        public int StudentId { get; set; }
-
-        public Student(string firstName = null, string lastName = null, int studentId = default) : base(firstName, lastName)
+        public Student(string firstName = null, string lastName = null, int studentId = default) : base(firstName,
+            lastName)
         {
             StudentId = studentId;
         }
+
+        public int StudentId { get; set; }
 
         public override string ToString()
         {

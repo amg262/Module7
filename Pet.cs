@@ -2,11 +2,9 @@
 {
     public class Pet
     {
-
         public virtual string Speak()
         {
             return "Hello!";
         }
-        
     }
 }
