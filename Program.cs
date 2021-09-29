@@ -16,10 +16,20 @@ namespace Module7
             //
             // string course = "Intro to Programming in C#";
 
-            Console.WriteLine(myCustomer);
-            Student student = new Student("Jane", "Doe", 123);
-            Console.WriteLine(student.ToString());
-            
+            // Console.WriteLine(myCustomer);
+            // Student student = new Student("Jane", "Doe", 123);
+            // Console.WriteLine(student.ToString());
+
+
+            Television sony = new Television(true, 12, "Sony");
+            Television lg = new Television(false, 2, "LG");
+            Television vizio = new Television(true, 32, "Vizio");
+
+            Console.WriteLine(sony.ToString());
+            Console.WriteLine(lg.ToString());
+            Console.WriteLine(vizio.ToString());
+
+
         }
     }
 }

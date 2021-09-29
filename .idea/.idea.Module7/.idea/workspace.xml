@@ -8,13 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b26b791f-a5cc-42e9-bd12-29f2442b1670" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Cube.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Customer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rectangle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Student.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Television.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Module7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Module7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
@@ -75,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632935368777</updated>
-      <workItem from="1632935384027" duration="3033000" />
+      <workItem from="1632935384027" duration="4037000" />
     </task>
     <servers />
   </component>
